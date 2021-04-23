@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>NÚMERO MÁGICO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div>
+      <h1>NÚMERO MÁGICO</h1>
+      <h2 id="intentos">Trata de adivinar el número, tienes 10 intentos.</h2>
+      <h3>¡MUCHA SUERTE!</h3>
+      <h4>
+        El número abarca del 0 al 1000. Conforme al número que usted coloque, le
+        daremos pista si es mayor, menor o si lo adivinó.
+      </h4>
+      <div class="aaa">
+        <input class="cajaNumero" type="text" size="15" maxlength="30" />
+        <h5 class="pistas"></h5>
+        <input class="comprobar" type="submit" value="Comprobar" />
+      </div>
+      <div class="reloj">
+        <span id="tiempo">00 : 00 : 00</span>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="reloj.js"></script>
+  </body>
+</html>
